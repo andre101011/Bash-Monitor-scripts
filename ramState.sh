@@ -7,7 +7,7 @@
 export DISPLAY=:0
 
 
-if [ ! -f .ramStateLog ] #se crea el log
+if [ ! -f ramState.log ] #se crea el log
     then
         touch ramState.log
 fi
@@ -21,7 +21,7 @@ usedMemory=$(free | head -2 |tail -1| awk '{print $3}')
 
 usedMemoryPercentage=$(echo "scale=2; ($usedMemory*100)/$totalMemory" | bc) #calcula el porcentaje de uso
 
-processProblem=$(top -n1 -b | head -8| tail -1| awk '{print $12}') #arroja el processo que esta consumiendo mas memoria
+processProblem=$(ps -Ao pmem,comm |sort|tail -2 |head -1 |awk '{print $2}') #arroja el processo que esta consumiendo mas memoria
 
 
 echo "-> memoria total en KB ${totalMemory}"
