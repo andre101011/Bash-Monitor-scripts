@@ -12,7 +12,6 @@ if [ ! -f ramState.log ] #se crea el log
         touch ramState.log
 fi
 
-
 dateLog=$(date)
 
 totalMemory=$(free | head -2 |tail -1| awk '{print $2}')
@@ -38,12 +37,13 @@ alert="No aplica"
 
 if [[ $condition2 -eq 1 && $condition1 -eq 1 ]]
     then
-        notify-send --icon=message_box_info -t 5000000 "ALERTA ALTO CONSUMO DE MEMORIA" "\n$usedMemoryPercentage% alcanzado"  #buscar lo adecuado
+        
+        notify-send -u critical -t 0 "ALERTA ALTO CONSUMO DE MEMORIA" "\n$usedMemoryPercentage% alcanzado"  #buscar lo adecuado
         alert="caso 2"
     else
         if [ $condition0 -eq 1 ]
         then
-            notify-send --icon=message_box_info -t 5000000 "ALERTA ALTO CONSUMO DE MEMORIA" "\nCUIDADO CON EL PROCESO $processProblem " #buscar lo adecuado
+            notify-send -u critical -t 0 "ALERTA ALTO CONSUMO DE MEMORIA" "\nCUIDADO CON EL PROCESO $processProblem " #buscar lo adecuado
             alert="caso 1"
         fi
     

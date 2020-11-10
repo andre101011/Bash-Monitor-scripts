@@ -1,0 +1,6 @@
+Esto debe ser introducido en la configuración de CRON para que funcionen las notificaciones de ramMonitor y cpuMonitor en algunas distros:
+
+DISPLAY=":0.0"
+XAUTHORITY="/home/me/.Xauthority"
+XDG_RUNTIME_DIR="/run/user/1000"
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus

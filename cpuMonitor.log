@@ -1,33 +1,24 @@
-_CPU en uso: % Evento: niguno  Fecha: dom nov  8 17:43:43 -05 2020
-_CPU en uso: 48.00% Evento: niguno  Fecha: dom nov  8 17:44:00 -05 2020
-_CPU en uso: 54.00% Evento: niguno  Fecha: dom nov  8 17:46:05 -05 2020
-_CPU en uso: 48.00% Evento: niguno  Fecha: dom nov  8 17:46:14 -05 2020
-_CPU en uso: 37.00% Evento: niguno  Fecha: dom nov  8 17:46:40 -05 2020
-_CPU en uso: 31.00% Evento: niguno  Fecha: dom nov  8 17:47:02 -05 2020
-_CPU en uso: 28.00% Evento: niguno  Fecha: dom nov  8 17:47:30 -05 2020
-_CPU en uso: 7.00% Evento: niguno  Fecha: dom nov  8 17:50:01 -05 2020
-_CPU en uso: 6.00% Evento: niguno  Fecha: dom nov  8 17:50:26 -05 2020
-_CPU en uso: 20.00% Evento: niguno  Fecha: dom nov  8 17:51:01 -05 2020
-_CPU en uso: 28.00% Evento: niguno  Fecha: dom nov  8 17:52:01 -05 2020
-_CPU en uso: 17.00% Evento: niguno  Fecha: dom nov  8 17:53:29 -05 2020
-_CPU en uso: 15.00% Evento: niguno  Fecha: dom nov  8 17:53:35 -05 2020
-_CPU en uso: 17.00% Evento: niguno  Fecha: dom nov  8 17:53:50 -05 2020
-_CPU en uso: 17.00% Evento: niguno  Fecha: dom nov  8 17:53:52 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:53 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:54 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:55 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:55 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:56 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:56 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:57 -05 2020
-_CPU en uso: 16.00% Evento: niguno  Fecha: dom nov  8 17:53:57 -05 2020
-_CPU en uso: 15.00% Evento: niguno  Fecha: dom nov  8 17:53:58 -05 2020
-_CPU en uso: 19.00% Evento: niguno  Fecha: dom nov  8 17:54:14 -05 2020
-_CPU en uso: 16.00% Evento: ALTO CONSUMO  Fecha: dom nov  8 17:54:23 -05 2020
-_CPU en uso: 23.00% Evento: niguno  Fecha: dom nov  8 17:55:25 -05 2020
-_CPU en uso: 27.00% Evento: alto consumo  Fecha: dom nov  8 17:55:46 -05 2020
-_CPU en uso: 21.00% Evento: alto consumo  Fecha: dom nov  8 17:55:58 -05 2020
-_CPU en uso: 21.00% Evento: alto consumo  Fecha: dom nov  8 17:56:57 -05 2020
-_CPU en uso: 19.00% Evento: alto consumo  Fecha: dom nov  8 17:57:02 -05 2020
-_CPU en uso: 18.00% Evento: alto consumo  Fecha: dom nov  8 17:57:13 -05 2020
-_CPU en uso: 12.00% Evento: alto consumo  Fecha: dom nov  8 17:59:45 -05 2020
+
+_CPU en uso: 6.00% Evento: niguno  Fecha: lun 09 nov 2020 21:30:01 -05 Proceso: top 
+_CPU en uso: 6.00% Evento: niguno  Fecha: lun 09 nov 2020 21:35:01 -05 Proceso: Xorg 
+_CPU en uso: 6.00% Evento: niguno  Fecha: lun 09 nov 2020 21:40:01 -05 Proceso: systemd 
+_CPU en uso: 10.00% Evento: niguno  Fecha: lun 09 nov 2020 21:45:01 -05 Proceso: cinnamon 
+_CPU en uso: 26.00% Evento: alto consumo  Fecha: lun 09 nov 2020 21:50:01 -05 Proceso: cinnamon 
+_CPU en uso: 20.00% Evento: alto consumo  Fecha: lun 09 nov 2020 21:55:01 -05 Proceso: firefox 
+_CPU en uso: 5.00% Evento: niguno  Fecha: lun 09 nov 2020 22:00:01 -05
+_CPU en uso: 10.00% Evento: niguno  Fecha: lun 09 nov 2020 22:05:01 -05
+_CPU en uso: 2.00% Evento: niguno  Fecha: lun 09 nov 2020 22:10:01 -05
+_CPU en uso: 1.00% Evento: niguno  Fecha: lun 09 nov 2020 22:15:01 -05
+_CPU en uso: 0% Evento: niguno  Fecha: lun 09 nov 2020 22:20:01 -05
+_CPU en uso: 3.00% Evento: niguno  Fecha: lun 09 nov 2020 22:25:01 -05
+_CPU en uso: 5.00% Evento: niguno  Fecha: lun 09 nov 2020 22:30:01 -05
+_CPU en uso: 3.00% Evento: niguno  Fecha: lun 09 nov 2020 22:35:01 -05
+_CPU en uso: 1.00% Evento: niguno  Fecha: lun 09 nov 2020 22:40:01 -05
+_CPU en uso: 5.00% Evento: niguno  Fecha: lun 09 nov 2020 22:45:01 -05
+_CPU en uso: 6.00% Evento: niguno  Fecha: lun 09 nov 2020 22:50:01 -05
+_CPU en uso: 7.00% Evento: niguno  Fecha: lun 09 nov 2020 22:55:01 -05
+_CPU en uso: 11.00% Evento: alto consumo  Fecha: lun 09 nov 2020 23:00:01 -05 Proceso: Xorg 
+_CPU en uso: 14.00% Evento: alto consumo  Fecha: lun 09 nov 2020 23:05:01 -05 Proceso: cinnamon 
+_CPU en uso: 1.00% Evento: niguno  Fecha: lun 09 nov 2020 23:10:01 -05
+_CPU en uso: 1.00% Evento: niguno  Fecha: lun 09 nov 2020 23:15:01 -05
+_CPU en uso: 3.00% Evento: niguno  Fecha: lun 09 nov 2020 23:20:01 -05

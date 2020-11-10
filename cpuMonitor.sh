@@ -34,11 +34,11 @@ event="niguno"
 
 if [ $(echo "$usedCPUPercentage > 10.00" | bc) -eq 1 ]
 then
-    notify-send --icon=message_box_info -t 5000000 "ALERTA ALTO CONSUMO DE CPU" "\nCUIDADO CON EL PROCESO $processProblem " #buscar lo adecuado
+    notify-send -u critical -t 0  "ALERTA ALTO CONSUMO DE CPU" "\nCUIDADO CON EL PROCESO $processProblem " #buscar lo adecuado
     event="alto consumo"
 fi
 
-if [[ $event == "niguno" ]] 
+if [[ $event != "niguno" ]] 
 then
     echo "_CPU en uso: $usedCPUPercentage% Evento: $event  Fecha: $dateLog Proceso: $processProblem ">>cpuMonitor.log
 else
